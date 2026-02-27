@@ -1,0 +1,7 @@
+gametitle=Ratchet & Clank - Going Commando (Greatest Hits) (2.00) [SCUS-97268]
+
+[Ratchet has a small head]
+description=Shrinks Ratchet's head
+author=Made in Slovakia
+dpatch=0,2,1,0,3C013F60,4,44816000,0,3C013F50
+dpatch=0,2,1,0,3C013F60,4,44810000,0,3C013F50

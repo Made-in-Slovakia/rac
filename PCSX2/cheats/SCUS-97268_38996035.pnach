@@ -1,7 +1,13 @@
-gametitle=Ratchet & Clank - Going Commando
+gametitle=Ratchet & Clank - Going Commando (NTSC) [SCUS-97268]
 
 [Ratchet has a small head]
-description=Shrinks Ratchet's head
+description=Shrinks Ratchet's head (v1.0)
 author=Made in Slovakia
-dpatch=0,2,1,0,3C013F60,4,44816000,0,3C013F50
-dpatch=0,2,1,0,3C013F60,4,44810000,0,3C013F50
+dpatch=0,2,1,0,3C013F60,4,44816000,0,3C013F40
+dpatch=0,2,1,0,3C013F60,4,44810000,0,3C013F40
+
+[Old School Ratchet]
+description=Flashback to Ratchet and Clank 1 with this retro Ratchet getup (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7A60,byte,01
+dpatch=0,4,1,0,1000000A,4,24100008,8,3C02001A,C,90427A4B,4,24100000

@@ -1,7 +1,7 @@
 # Ratchet & Clank
 
-This recository contains Ratchet & Clank related stuff.
+This repository contains my Ratchet & Clank related stuff.
 
-## PCSX2
+## License
 
-[PCSX2](https://pcsx2.net) is an open-source PS2 emulator.
+My creations in this repository use [MIT](LICENSE). When you base your work on them, please refer the source.

@@ -12,7 +12,13 @@ I develop and test with PAL (European) versions of the games. I try to provide N
 
 Some also may be marked as work in progress (WIP), see description for details.
 
-If you encounter a issue, please report it via [GitHub Issues](https://github.com/Made-in-Slovakia/rac/issues) or DM me.
+If you encounter any issue, please report it via [GitHub Issues](https://github.com/Made-in-Slovakia/rac/issues) or DM me.
+
+## Update notifications
+
+If you want receive notification about updates and also about new mods, you can use [Atom/RSS feed for this repository](https://github.com/Made-in-Slovakia/rac/commits/main.atom). It is standard Atom/RSS feed source and can be used with most of news reader apps.
+
+Link to Atom/RSS feed: [https://github.com/Made-in-Slovakia/rac/commits/main.atom](https://github.com/Made-in-Slovakia/rac/commits/main.atom)
 
 ## Patches / Cheats / Mods
 

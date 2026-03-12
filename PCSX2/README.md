@@ -41,3 +41,9 @@ Mod replaces `Commando Suit` and `Snow Dude` (a.k.a. Snowman) skin (avaiable in 
 Installation: In addition to `pnach` file, download files in `textures` folder and save them to the folder `pcsx2\textures` in your user `Documents` folder. It schould be already created by PCSX2. Then enable PCSX2 feature `Texture replacement` for Ratchet & Clank 2 game.
 
 ![Enable texture replacement for a specific game](resources/menu-2.jpg "Enable texture replacement for a specific game")
+
+#### Old School Ratchet - Reloaded
+
+Updated version of `Old School Ratchet` mod where equiped boots (gadgets) and O2 mask are shown when they are equipped or used.
+
+![Old School Ratchet - Reloaded](resources/screenshot-2.jpg "Old School Ratchet - Reloaded")

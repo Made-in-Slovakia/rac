@@ -30,7 +30,7 @@ Cheats/mods can be enabled/disabled from the `Cheats` page of the game propertie
 
 ![Enable cheats for a specific game](resources/menu-1.jpg "Enable cheats for a specific game")
 
-### Ratchet & Clank 2
+### Ratchet & Clank 2 (Going Commando)
 
 #### Ratchet has a small head
 
@@ -53,3 +53,19 @@ Installation: In addition to `pnach` file, download files in `textures` folder a
 Updated version of `Old School Ratchet` mod where equiped boots (gadgets) and O2 mask are shown when they are equipped or used.
 
 ![Old School Ratchet - Reloaded](resources/screenshot-2.jpg "Old School Ratchet - Reloaded")
+
+### Ratchet & Clank 3 (Up Your Arsenal)
+
+#### Fix for armor boots
+
+Game contains a bug that causes the default boots are displayed instead of the boots for equipped armor. The bug appears after using Gravity or Charge Boots for the first time. This mod will fix it.
+
+``Activate only after acquiring Gravity or Charge Boots and equipping them at least once, otherwise the emulator will crash.``
+
+![Ratchet's new boots](resources/screenshot-3.jpg "Ratchet's new boots")
+
+#### Fix for armor boots - Reloaded
+
+More complex version of `Fix for armor boots`. 
+
+``When you activate this mod for the first time, load the game from the memory card, otherwise the emulator may crash. After the game is loaded from the memory card, it is possible to use the save states.``

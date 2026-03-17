@@ -66,6 +66,6 @@ Game contains a bug that causes the default boots are displayed instead of the b
 
 #### Fix for armor boots - Reloaded
 
-More complex version of `Fix for armor boots`. 
+More complex version of `Fix for armor boots`. Use `Fix for armor boots` mod if this one does not work. 
 
 ``When you activate this mod for the first time, load the game from the memory card, otherwise the emulator may crash. After the game is loaded from the memory card, it is possible to use the save states.``

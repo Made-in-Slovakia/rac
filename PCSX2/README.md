@@ -30,6 +30,17 @@ Activate/deactivate the patch/mod while the game is off, start the game and load
 
 ![How to enable cheats for a specific game](resources/pcsx2/how-to-enable-cheats.jpg "How to enable cheats for a specific game")
 
+### How to update
+
+1. save the game to the memory card
+2. turn off the game
+3. update `pnach` file containing patches and mods
+4. in the `Cheats` page of the game properties window, press the `Reload Cheats` button
+5. start the game
+6. load the game from the memory card
+
+Do not use save states when updating mods.
+
 #### Supported games
 
 |Serial    |Game                   |Level of support|

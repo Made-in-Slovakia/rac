@@ -59,7 +59,7 @@ Do not use multiple mods that modify the same part of the game. For example, `He
 
 Shrinks Ratchet's head by `0x10`, which is just about right. If you want to shrink it more, change `3C013F50` in pnach file to `3C013F20` and reload the game from save.
 
-`PAL version only.`
+``PAL version only.``
 
 #### Old School Ratchet
 
@@ -85,7 +85,7 @@ Updated version of `Old School Ratchet` mod where equiped boots (gadgets) and O2
 
 A collection of patches and mods related to Ratchet's boots.
 
-`NTSC version is ONLY PARTIALLY TESTED. User feedback is welcome.`
+``NTSC version is ONLY PARTIALLY TESTED. User feedback is welcome.``
 
 1. Game contains a bug that causes the default boots are displayed instead of the boots for equipped armor. The bug appears after using Gravity or Charge Boots for the first time. This patch fixes that.<br />
 ![Armor boots fix](resources/screenshots/rac3-armor-boots-fix.jpg "Armor boots fix")
@@ -102,7 +102,7 @@ A collection of patches and mods related to Ratchet's boots.
 
 While Ratchet uses `Old School Ratchet` or `Tuxedo Ratchet` skin, he will wear a helmet and O2 mask underwater.
 
-`NTSC version is PARTIALLY TESTED. User feedback is welcome.`
+``NTSC version is PARTIALLY TESTED. User feedback is welcome.``
 
 ![Helmet for 'Old School Ratchet'](resources/screenshots/rac3-helmet-for-old-school-ratchet.jpg "Helmet for 'Old School Ratchet'")
 
@@ -110,7 +110,7 @@ While Ratchet uses `Old School Ratchet` or `Tuxedo Ratchet` skin, he will wear a
 
 Removes Ratchet's helmet when he is wearing armor, except when he is underwater.
 
-`NTSC version is PARTIALLY TESTED. User feedback is welcome.`
+``NTSC version is PARTIALLY TESTED. User feedback is welcome.``
 
 ![Ratchet does not need helmet](resources/screenshots/rac3-ratchet-does-not-need-helmet.jpg "Ratchet does not need helmet")
 
@@ -118,7 +118,7 @@ Removes Ratchet's helmet when he is wearing armor, except when he is underwater.
 
 Gives Ratchet's OmniWrench a flaming effect.
 
-`NTSC version is PARTIALLY TESTED. User feedback is welcome.`
+``NTSC version is PARTIALLY TESTED. User feedback is welcome.``
 
 ![Flaming OmniWrench](resources/screenshots/rac3-flaming-omniwrench.jpg "Flaming OmniWrench")
 
@@ -126,14 +126,15 @@ Gives Ratchet's OmniWrench a flaming effect.
 
 Activates `Old School Ratchet` skin.
 
-The way the game loads Ratchet's model will cause the correct skin to not appear immediately. This is fixed when Ratchet travels between planets. This can also be done manually by scrolling through the skins, without having to activate any skin.
-
 #### Inferno mode
 
 Enables `Inferno mode` with all its effects.
 
-The way the game loads Ratchet's model will cause the correct skin to not appear immediately. This is fixed when Ratchet travels between planets. This can also be done manually by scrolling through the skins, without having to activate any skin.
+While `Inferno mode` is active, many game features, such as `Hypershot`, are not available. Therefore, an active `Inferno mode` can cause a soft-lock. Disabling the cheat will disable `Inferno mode` in ~15 seconds.
+
+``I do not support this cheat in any way. I uploaded it AS-IS and just for fun.``
 
 ### Known bugs and issues
 
- - Because these patches/modes/cheats use dynamic patches, which are PCSX2 specific feature, it is not possible to convert them to cheat codes for a real hardware
+ - `Old School Ratchet`, `Inferno mode` - the way the game loads Ratchet's model will cause the correct skin to not appear immediately. Ratchet's skin is reloaded when traveling between planets or when the player cycles through skins (without the need to activate any skin).
+ - Because these patches/modes/cheats use dynamic patches, which are PCSX2 specific feature, it is not possible to convert them to cheat codes for a real hardware.

@@ -6,9 +6,9 @@ My creations for [PCSX2](https://pcsx2.net) emulator.
 
 ``Use at your own risk. Regular backups are highly recommended.``
 
-Some of these creations are experimental. They may corrupt your memory card saves and PCSX2 save states. Do not use them with your standard saves and always use new save or backup your saves before using patch/mod.
+Some of these creations are experimental. They may corrupt your memory card saves and PCSX2 save states. Do not use them with your standard saves and always use new save or backup your saves before using them.
 
-I develop and test with PAL (European) versions of the games. I try to provide NTSC (North America) versions when possible. Therefore these patches/mods may have the note `UNTESTED`, which means they are not tested thoroughly. User feedback is welcome.
+I develop and test with PAL (European) versions of the games. I try to provide NTSC (North America) versions when possible, but they still may have the note `UNTESTED` or `PARTIALLY TESTED`, which means they are not tested thoroughly. User feedback is welcome.
 
 If you encounter any issue, please report it via [GitHub Issues](https://github.com/Made-in-Slovakia/rac/issues) or DM me on [Reddit](https://www.reddit.com/user/Made-In-Slovakia/).
 
@@ -18,15 +18,13 @@ If you want receive notification about updates and also about new mods, you can 
 
 Link to Atom/RSS feed: [https://github.com/Made-in-Slovakia/rac/commits/main.atom](https://github.com/Made-in-Slovakia/rac/commits/main.atom)
 
-## Patches / Mods
+## Patches / Mods / Cheats
 
 ### How to install
 
 Download the `pnach` file for your game version (see table bellow) and save it to the folder `pcsx2\cheats` in your user `Documents` folder. Folder is created automatically by PCSX2.
 
-Cheats/mods can be enabled/disabled from the `Cheats` page of the game properties window, and will only be applied if the `Enable Cheats` setting is enabled. This setting can be enabled globally from the `Emulation` page of the settings window, or on a per-game basis from the `Cheats` page of the game properties window (recommended).
-
-Activate/deactivate the patch/mod while the game is off, start the game and load the game from the memory card. **Do not use the PCSX2 save state when activating/deactivating the mod, the emulator may crash.** After the game is loaded from the memory card, it is possible to use the PCSX2 save states.
+Patches/mods/cheats can be enabled/disabled from the `Cheats` page of the game properties window, and will only be applied if the `Enable Cheats` setting is enabled. This setting can be enabled globally from the `Emulation` page of the settings window, or on a per-game basis from the `Cheats` page of the game properties window (recommended).
 
 ![How to enable cheats for a specific game](resources/pcsx2/how-to-enable-cheats.jpg "How to enable cheats for a specific game")
 
@@ -43,23 +41,25 @@ Do not use save states when updating mods.
 
 #### Supported games
 
-|Serial    |Game                   |Level of support|
-|----------|-----------------------|----------------|
-|SCES-51607|Ratchet & Clank 2 (PAL)|Full|
-|SCES-52456|Ratchet & Clank 3 (PAL)|Full|
-|SCUS-97268|Ratchet & Clank - Going Commando (NTSC)|Partial|
-|SCUS-97268|Ratchet & Clank - Going Commando (NTSC) (Greatest Hits)|Partial|
-|SCUS-97353|Ratchet & Clank - Up Your Arsenal (NTSC)|Partial|
+|Serial    |Region|Game                   |Level of support|
+|----------|------|-----------------------|----------------|
+|SCES-51607|PAL|Ratchet & Clank 2|Full|
+|SCES-52456|PAL|Ratchet & Clank 3|Full|
+|SCUS-97268|NTSC|Ratchet & Clank - Going Commando|Partial|
+|SCUS-97268|NTSC|Ratchet & Clank - Going Commando (Greatest Hits)|Partial|
+|SCUS-97353|NTSC|Ratchet & Clank - Up Your Arsenal|Partial|
 
 ### Combining patches / mods
 
-While some combinations such as `Boots for 'Old School Ratchet'` mod and `Armor boots fix - Reloaded` patch are highly recommended, unless explicitly allowed, do not use multiple mods that modify the same part of the game. For example, `Helmet for 'Old School Ratchet'` and `Ratchet does not need helmet` are not compatible and activating both at the same time may have unexpected consequences.
+Do not use multiple mods that modify the same part of the game. For example, `Helmet for skins` and `Ratchet does not need helmet` are not compatible with each other and activating both at the same time may have unexpected results.
 
 ### Ratchet & Clank 2 (Going Commando)
 
 #### Ratchet has a small head
 
 Shrinks Ratchet's head by `0x10`, which is just about right. If you want to shrink it more, change `3C013F50` in pnach file to `3C013F20` and reload the game from save.
+
+`PAL version only.`
 
 #### Old School Ratchet
 
@@ -83,35 +83,24 @@ Updated version of `Old School Ratchet` mod where equiped boots (gadgets) and O2
 
 #### Armor boots fix
 
-Game contains a bug that causes the default boots are displayed instead of the boots for equipped armor. The bug appears after using Gravity or Charge Boots for the first time. This mod will fix it.
+A collection of patches and mods related to Ratchet's boots.
 
-This is a simplified version of `Armor boots fix - Reloaded`. Use this mod only if `Armor boots fix - Reloaded` doesn't work for you.
+`NTSC version is ONLY PARTIALLY TESTED. User feedback is welcome.`
 
-``Activate this fix only after acquiring Gravity or Charge Boots and equipping them at least once, otherwise the emulator will crash.``
-
+1. Game contains a bug that causes the default boots are displayed instead of the boots for equipped armor. The bug appears after using Gravity or Charge Boots for the first time. This patch fixes that.<br />
 ![Armor boots fix](resources/screenshots/rac3-armor-boots-fix.jpg "Armor boots fix")
 
-#### Armor boots fix - Reloaded
+2. For skins `Old School Ratchet` and `Tuxedo Ratchet`, it will display gadget boots if equipped.<br />
+![Boots for 'Old School Ratchet'](resources/screenshots/rac3-boots-for-old-school-ratchet.jpg "Boots for 'Old School Ratchet'")<br />
 
-Game contains a bug that causes the default boots are displayed instead of the boots for equipped armor. The bug appears after using Gravity or Charge Boots for the first time. This mod will fix it.
-
-This is a more complex version of `Armor boots fix`. Use `Armor boots fix` mod if this one does not work.
-
-#### Boots for 'Old School Ratchet' and Infernox Armor
-
-While Ratchet uses `Old School Ratchet` skin or `Infernox Armor`, he can now visually equip gatget boots. Activating patch `Armor boots fix - Reloaded` is highly recommended.
-
-`NTSC version is UNTESTED. User feedback is welcome.`
-
-![Boots for 'Old School Ratchet'](resources/screenshots/rac3-boots-for-old-school-ratchet.jpg "Boots for 'Old School Ratchet'")
-
+3. For `Infernox Armor`, it will display gadget boots if equipped.<br />
 ![Boots for Infernox Armor](resources/screenshots/rac3-boots-for-infernox-armor.jpg "Boots for Infernox Armor")
 
-#### Helmet for 'Old School Ratchet'
+#### Helmet for skins
 
-`Old School Ratchet` will now wear a helmet and O2 mask when underwater.
+While Ratchet uses `Old School Ratchet` or `Tuxedo Ratchet` skin, he will wear a helmet and O2 mask underwater.
 
-`NTSC version is UNTESTED. User feedback is welcome.`
+`NTSC version is PARTIALLY TESTED. User feedback is welcome.`
 
 ![Helmet for 'Old School Ratchet'](resources/screenshots/rac3-helmet-for-old-school-ratchet.jpg "Helmet for 'Old School Ratchet'")
 
@@ -119,11 +108,30 @@ While Ratchet uses `Old School Ratchet` skin or `Infernox Armor`, he can now vis
 
 Removes Ratchet's helmet when he is wearing armor, except when he is underwater.
 
-`NTSC version is UNTESTED. User feedback is welcome.`
+`NTSC version is PARTIALLY TESTED. User feedback is welcome.`
 
 ![Ratchet does not need helmet](resources/screenshots/rac3-ratchet-does-not-need-helmet.jpg "Ratchet does not need helmet")
 
+#### Flaming OmniWrench
+
+Gives Ratchet's OmniWrench a flaming effect.
+
+`NTSC version is PARTIALLY TESTED. User feedback is welcome.`
+
+![Flaming OmniWrench](resources/screenshots/rac3-flaming-omniwrench.jpg "Flaming OmniWrench")
+
+#### Old School Ratchet
+
+Activates 'Old School Ratchet' skin.
+
+The way the game loads Ratchet's model will cause the correct skin to not appear immediately. This is fixed when Ratchet travels between planets. This can also be done manually by scrolling through the skins, without having to activate any skin.
+
+#### Inferno mode
+
+Enables 'Inferno mode' with all its effects.
+
+The way the game loads Ratchet's model will cause the correct skin to not appear immediately. This is fixed when Ratchet travels between planets. This can also be done manually by scrolling through the skins, without having to activate any skin.
+
 ### Known bugs and issues
 
- - The emulator may crash if the patch/mod is activated while the game is running (unpredictable)
- - `Helmet for 'Old School Ratchet'` does not work when Infernox Armor is equipped
+ - Because these patches/modes/cheats use dynamic patches, which are PCSX2 only feature, it is not possible to convert them to cheat codes for a real hardware 

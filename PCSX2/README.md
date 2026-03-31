@@ -96,6 +96,8 @@ A collection of patches and mods related to Ratchet's boots.
 3. For `Infernox Armor`, it will display gadget boots if equipped.<br />
 ![Boots for Infernox Armor](resources/screenshots/rac3-boots-for-infernox-armor.jpg "Boots for Infernox Armor")
 
+4. Hides gadget boots when Ratchet is in the water or underwater.
+
 #### Helmet for skins
 
 While Ratchet uses `Old School Ratchet` or `Tuxedo Ratchet` skin, he will wear a helmet and O2 mask underwater.
@@ -122,16 +124,16 @@ Gives Ratchet's OmniWrench a flaming effect.
 
 #### Old School Ratchet
 
-Activates 'Old School Ratchet' skin.
+Activates `Old School Ratchet` skin.
 
 The way the game loads Ratchet's model will cause the correct skin to not appear immediately. This is fixed when Ratchet travels between planets. This can also be done manually by scrolling through the skins, without having to activate any skin.
 
 #### Inferno mode
 
-Enables 'Inferno mode' with all its effects.
+Enables `Inferno mode` with all its effects.
 
 The way the game loads Ratchet's model will cause the correct skin to not appear immediately. This is fixed when Ratchet travels between planets. This can also be done manually by scrolling through the skins, without having to activate any skin.
 
 ### Known bugs and issues
 
- - Because these patches/modes/cheats use dynamic patches, which are PCSX2 only feature, it is not possible to convert them to cheat codes for a real hardware 
+ - Because these patches/modes/cheats use dynamic patches, which are PCSX2 specific feature, it is not possible to convert them to cheat codes for a real hardware

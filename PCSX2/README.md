@@ -14,9 +14,11 @@ If you encounter any issue, please report it via [GitHub Issues](https://github.
 
 ## Update notifications
 
-If you want receive notification about updates and also about new mods, you can use [Atom/RSS feed for this repository](https://github.com/Made-in-Slovakia/rac/commits/main.atom). It is standard Atom/RSS feed source and can be used with most of news reader apps.
+If you want to receive notification about updates and also about new mods, I recommend using [Atom/RSS feed for this repository](https://github.com/Made-in-Slovakia/rac/commits/main.atom). It is standard Atom/RSS feed source and can be used with most of news reader apps.
 
-Link to Atom/RSS feed: [https://github.com/Made-in-Slovakia/rac/commits/main.atom](https://github.com/Made-in-Slovakia/rac/commits/main.atom)
+Link to Atom/RSS feed [https://github.com/Made-in-Slovakia/rac/commits/main.atom](https://github.com/Made-in-Slovakia/rac/commits/main.atom)
+
+Or follow me directly on Reddit, where I post major updates as well, usually [u/Made-In-Slovakia](https://www.reddit.com/user/Made-In-Slovakia/)
 
 ## Patches / Mods / Cheats
 

@@ -1,7 +1,7 @@
 gametitle=Ratchet & Clank 3 (PAL) [SCES-52456]
 
 [Patches\Armor boots fix]
-description=Fixes issue where the game does not display the correct boots for equipped armor. Also displays gatget boots if equipped for selected skins. (v2.1)
+description=A collection of patches and mods related to Ratchet's boots (v2.1)
 author=Made in Slovakia
 dpatch=0,8,8,0,24030004,4,10830005,8,0000882D,10,00000000,14,18400002,18,00000000,1C,24110001,20,1220000D,0,00000000,4,00000000,8,3C030010,C,8071FFD0,10,00000000,14,00000000,18,00000000,1C,00000000
 dpatch=0,9,4,0,24030004,4,24422660,8,84440040,C,10830005,10,0000802D,18,00000000,1C,18400003,20,24020001,24,24100001,0,00000000,C,00000000,14,3C030010,18,8062FFD0
@@ -18,7 +18,7 @@ patch=2,EE,E101001C,extended,001D4C44
 patch=2,EE,001D4C44,extended,00000000
 
 [Mods\Helmet for skins]
-description='Old School Ratchet' and 'Tuxedo Ratchet' will wear a helmet and O2 mask under water (v3.0)
+description=While Ratchet uses 'Old School Ratchet' and 'Tuxedo Ratchet' skin, he will wear a helmet and O2 mask underwater (v3.0)
 author=Made in Slovakia
 dpatch=0,C,D,0,84440040,4,24030004,8,10830009,C,0000882D,14,00000000,18,5C400006,1C,24110001,20,26824BE0,24,8C430234,28,10600003,2C,26904BE0,30,24110001,0,00000000,4,00000000,8,3C020010,C,8051FFD1,10,00000000,14,00000000,18,00000000,1C,00000000,20,00000000,24,00000000,28,00000000,2C,00000000,30,00000000
 patch=1,EE,000FFFD1,extended,00000000

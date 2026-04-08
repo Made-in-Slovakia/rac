@@ -1,10 +1,10 @@
 gametitle=Ratchet & Clank - Up Your Arsenal (NTSC) [SCUS-97353]
 
 [Patches\Armor boots fix]
-description=A collection of patches and mods related to Ratchet's boots (v2.0) [PARTIALLY TESTED]
+description=A collection of patches and mods related to Ratchet's boots (v2.1) [PARTIALLY TESTED]
 author=Made in Slovakia
 dpatch=0,8,8,0,24030004,4,10830005,8,0000882D,10,00000000,14,18400002,18,00000000,1C,24110001,20,1220000D,0,00000000,4,00000000,8,3C030010,C,8071FFD0,10,00000000,14,00000000,18,00000000,1C,00000000
-dpatch=0,9,5,0,24030004,4,24422660,8,84440040,C,10830005,10,0000802D,18,00000000,1C,18400003,20,24020001,24,24100001,0,00000000,C,0000802D,10,3C030014,14,906227AB,18,2442FFFB
+dpatch=0,9,4,0,24030004,4,24422660,8,84440040,C,10830005,10,0000802D,18,00000000,1C,18400003,20,24020001,24,24100001,0,00000000,C,00000000,14,3C030010,18,8062FFD0
 patch=2,EE,000FFFD0,extended,00000000
 patch=2,EE,E1030000,extended,101427AB
 patch=2,EE,E1020005,extended,101427AB
@@ -15,7 +15,7 @@ patch=2,EE,000FFFD0,extended,00000001
 patch=2,EE,E1010012,extended,001A71AC
 patch=2,EE,000FFFD0,extended,00000001
 patch=2,EE,E101001C,extended,001D4C44
-patch=2,EE,000FFFD0,extended,00000001
+patch=2,EE,001D4C44,extended,00000000
 
 [Mods\Helmet for skins]
 description=While Ratchet uses 'Old School Ratchet' and 'Tuxedo Ratchet' skin, he will wear a helmet and O2 mask underwater (v3.0) [PARTIALLY TESTED]

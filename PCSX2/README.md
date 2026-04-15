@@ -148,11 +148,11 @@ While `Inferno mode` is active, many game features, such as `Hypershot`, are not
 
 #### Bomb glove
 
-Enables unused and fully functional weapon `Bomb Glove` with full ammo (40) and refills ammo when it runs out.
+Enables unused and fully functional weapon `Bomb Glove` with full ammo (40) and refills ammo when it runs out. The weapon is force equipped in slot 5 in quick select wheel.
 
 #### Sheepinator
 
-Enables unused and not functional weapon `Sheepinator` with full ammo (61439).
+Enables unused and not functional weapon `Sheepinator` with full ammo (61439). The weapon is force equipped in slot 6 in quick select wheel.
 
 ### Known bugs and issues
 

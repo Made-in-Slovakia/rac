@@ -1,0 +1,20 @@
+gametitle=Ratchet & Clank (NTSC) [SCUS-97199]
+
+[Cheats\Debug menu]
+description=Opens debug menu (v1.0)
+author=Made In Slovakia
+patch=1,EE,E0020000,extended,0015F5C4
+patch=1,EE,E0010000,extended,0015F5C6
+patch=1,EE,2015F5C4,extended,FFFFFFFF
+
+[Cheats\Left handed Ratchet]
+description=Left handed Ratchet (v1.0)
+author=Made In Slovakia
+patch=1,EE,E1010000,extended,0015EDB5
+patch=1,EE,0015EDB5,extended,00000001
+
+[Cheats\Right handed Ratchet]
+description=Right handed Ratchet (v1.0)
+author=Made In Slovakia
+patch=1,EE,E1010001,extended,0015EDB5
+patch=1,EE,0015EDB5,extended,00000000

@@ -24,7 +24,7 @@ Or follow me directly on Reddit, where I post major updates as well, usually [u/
 
 ### How to install
 
-Download the `pnach` file for your game version (see table bellow) and save it to the folder `pcsx2\cheats` in your user `Documents` folder. Folder is created automatically by PCSX2.
+Download the `pnach` file for your game version (see table bellow) from [cheats folder](cheats/) and save it to the folder `pcsx2\cheats` in your user `Documents` folder. Folder is created automatically by PCSX2.
 
 Patches/mods/cheats can be enabled/disabled from the `Cheats` page of the game properties window, and will only be applied if the `Enable Cheats` setting is enabled. This setting can be enabled globally from the `Emulation` page of the settings window, or on a per-game basis from the `Cheats` page of the game properties window (recommended).
 
@@ -54,6 +54,16 @@ Do not use save states when updating mods.
 ### Combining patches / mods
 
 Do not use multiple mods that modify the same part of the game. For example, `Helmet for skins` and `Ratchet does not need helmet` are not compatible with each other and activating both at the same time may have unexpected results.
+
+### Ratchet & Clank
+
+#### Debug menu
+
+Opens [Debug menu](https://tcrf.net/Ratchet_%26_Clank_(PlayStation_2)/Debug_Mode). After enabling this cheat, you must deactivate it, otherwise you will not be able to leave the menu.
+
+#### Left handed Ratchet / Right handed Ratchet
+
+This activates [unused cheat](https://tcrf.net/Ratchet_%26_Clank_(PlayStation_2)#Unused_Cheats) in the game that makes Ratchet hold all his weapons in his left hand. `Right handed Ratchet` will disable it.
 
 ### Ratchet & Clank 2 (Going Commando)
 
@@ -136,7 +146,15 @@ While `Inferno mode` is active, many game features, such as `Hypershot`, are not
 
 ``I do not support this cheat in any way. I uploaded it AS-IS and just for fun.``
 
+#### Bomb glove
+
+Enables unused and fully functional weapon `Bomb Glove` with full ammo (40) and refills ammo when it runs out.
+
+#### Sheepinator
+
+Enables unused and not functional weapon `Sheepinator` with full ammo (61439).
+
 ### Known bugs and issues
 
  - `Old School Ratchet`, `Inferno mode` - the way the game loads Ratchet's model will cause the correct skin to not appear immediately. Ratchet's skin is reloaded when traveling between planets or when the player cycles through skins (without the need to activate any skin).
- - Because these patches/modes/cheats use dynamic patches, which are PCSX2 specific feature, it is not possible to convert them to cheat codes for a real hardware.
+ - Because these patches/modes/cheats use dynamic patches, which are PCSX2 exclusive feature, it is not possible to convert them to cheat codes for a real hardware.

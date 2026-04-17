@@ -1,0 +1,67 @@
+name: PCSX2 package release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'PCSX2/**'
+      - '.github/workflows/pcsx2-package-release.yml'
+
+env:
+  RELEASE_PACKAGE_NAME: pcsx2-package
+
+permissions:
+  contents: write
+
+jobs:
+  create-release:
+    if: ${{ github.repository == 'Made-in-Slovakia/rac' }}
+    name: "Create release"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v6
+      - name: Prepare package
+        run: |
+          mkdir -p ${{ github.workspace }}/build/PCSX2
+          echo "Workflow run number: ${{ github.run_number }}" > ${{ github.workspace }}/build/PCSX2/PACKAGE_INFO.txt
+          echo "Git ref name: ${{ github.ref_name }}" >> ${{ github.workspace }}/build/PCSX2/PACKAGE_INFO.txt
+          echo "Git commit SHA: ${{ github.sha }}" >> ${{ github.workspace }}/build/PCSX2/PACKAGE_INFO.txt
+      - name: Copy files
+        run: |
+          cp -R ${{ github.workspace }}/PCSX2/cheats ${{ github.workspace }}/build/PCSX2/cheats
+          cp -R ${{ github.workspace }}/PCSX2/textures ${{ github.workspace }}/build/PCSX2/textures
+          cp ${{ github.workspace }}/LICENSE ${{ github.workspace }}/build/PCSX2/LICENSE
+          cp ${{ github.workspace }}/PCSX2/CHANGELOG.txt ${{ github.workspace }}/build/PCSX2/CHANGELOG.txt
+      - name: Install pandoc
+        uses: pandoc/actions/setup@v1
+        with:
+          version: 3.9.0.2
+      - name: Generate docs
+        run: |
+          cd ${{ github.workspace }}/PCSX2
+          pandoc README.md -f markdown -t html -o ${{ github.workspace }}/build/PCSX2/README.html --embed-resources --standalone
+      - name: Create package archive
+        run: |
+          cd ${{ github.workspace }}/build
+          zip -r ${RELEASE_PACKAGE_NAME}.zip PCSX2
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          path: ${{ github.workspace }}/build/${{ env.RELEASE_PACKAGE_NAME }}.zip
+          archive: false
+
+      - name: Create release
+        uses: softprops/action-gh-release@v3
+        with:
+          name: PCSX2 package ${{ github.run_number }}
+          body: |
+            Latest PCSX2 package release.
+            # Latest change
+            * ${{ github.event.head_commit.message }}
+          body_path: ${{ github.workspace }}/build/PCSX2/CHANGELOG.txt
+          tag_name: latest-pcsx2
+          make_latest: true
+          working_directory: ${{ github.workspace }}/build
+          files: ${{ env.RELEASE_PACKAGE_NAME }}.zip

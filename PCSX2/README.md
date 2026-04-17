@@ -6,7 +6,7 @@ My creations for [PCSX2](https://pcsx2.net) emulator.
 
 ``Use at your own risk. Regular backups are highly recommended.``
 
-Some of these creations are experimental. They may corrupt your memory card saves and PCSX2 save states. Do not use them with your standard saves and always use new save or backup your saves before using them.
+Some of these creations are experimental. They may affect your memory card saves and PCSX2 save states. Do not use them with your standard saves and always use new save or backup your saves before using them.
 
 I develop and test with PAL (European) versions of the games. I try to provide NTSC (North America) versions when possible, but they still may have the note `UNTESTED` or `PARTIALLY TESTED`, which means they are not tested thoroughly. User feedback is welcome.
 
@@ -16,15 +16,19 @@ If you encounter any issue, please report it via [GitHub Issues](https://github.
 
 If you want to receive notification about updates and also about new mods, I recommend using [Atom/RSS feed for this repository](https://github.com/Made-in-Slovakia/rac/commits/main.atom). It is standard Atom/RSS feed source and can be used with most of news reader apps.
 
-Link to Atom/RSS feed [https://github.com/Made-in-Slovakia/rac/commits/main.atom](https://github.com/Made-in-Slovakia/rac/commits/main.atom)
+> Link to Atom/RSS feed [https://github.com/Made-in-Slovakia/rac/commits/main.atom](https://github.com/Made-in-Slovakia/rac/commits/main.atom)
 
-Or follow me directly on Reddit, where I post major updates as well, usually [u/Made-In-Slovakia](https://www.reddit.com/user/Made-In-Slovakia/)
+Or follow me directly on Reddit, where I post major updates as well, usually, [u/Made-In-Slovakia](https://www.reddit.com/user/Made-In-Slovakia/)
 
 ## Patches / Mods / Cheats
 
 ### How to install
 
 Download the `pnach` file for your game version (see table bellow) from [cheats folder](cheats/) and save it to the folder `pcsx2\cheats` in your user `Documents` folder. Folder is created automatically by PCSX2.
+
+Alternatively, you can download the [full PCSX2 package](https://github.com/Made-in-Slovakia/rac/releases/download/latest-pcsx2/pcsx2-package.zip), which contains everything including documentation, from [https://github.com/Made-in-Slovakia/rac/releases](release section) of this repository.
+
+> Link to releases [https://github.com/Made-in-Slovakia/rac/releases](https://github.com/Made-in-Slovakia/rac/releases)
 
 Patches/mods/cheats can be enabled/disabled from the `Cheats` page of the game properties window, and will only be applied if the `Enable Cheats` setting is enabled. This setting can be enabled globally from the `Emulation` page of the settings window, or on a per-game basis from the `Cheats` page of the game properties window (recommended).
 
@@ -45,8 +49,11 @@ Do not use save states when updating mods.
 
 |Serial    |Region|Game                   |Level of support|
 |----------|------|-----------------------|----------------|
+|SCES-51607|PAL|Ratchet & Clank|None|
+|SCES-51607|PAL|Ratchet & Clank (Platinum)|Full|
 |SCES-51607|PAL|Ratchet & Clank 2|Full|
 |SCES-52456|PAL|Ratchet & Clank 3|Full|
+|SCUS-97268|NTSC|Ratchet & Clank|Partial|
 |SCUS-97268|NTSC|Ratchet & Clank - Going Commando|Partial|
 |SCUS-97268|NTSC|Ratchet & Clank - Going Commando (Greatest Hits)|Partial|
 |SCUS-97353|NTSC|Ratchet & Clank - Up Your Arsenal|Partial|
@@ -150,6 +157,8 @@ While `Inferno mode` is active, many game features, such as `Hypershot`, are not
 
 Enables unused and fully functional weapon `Bomb Glove` with full ammo (40) and refills ammo when it runs out. The weapon is force equipped in slot 5 in quick select wheel.
 
+``Because the weapon is experimental, it does not have firing animation.``
+
 #### Sheepinator
 
 Enables unused and not functional weapon `Sheepinator` with full ammo (61439). The weapon is force equipped in slot 6 in quick select wheel.
@@ -157,4 +166,4 @@ Enables unused and not functional weapon `Sheepinator` with full ammo (61439). T
 ### Known bugs and issues
 
  - `Old School Ratchet`, `Inferno mode` - the way the game loads Ratchet's model will cause the correct skin to not appear immediately. Ratchet's skin is reloaded when traveling between planets or when the player cycles through skins (without the need to activate any skin).
- - Because these patches/modes/cheats use dynamic patches, which are PCSX2 exclusive feature, it is not possible to convert them to cheat codes for a real hardware.
+ - Patches/modes/cheats that use dynamic patches, which are PCSX2 exclusive feature, can not be converted to cheat codes for a real hardware.

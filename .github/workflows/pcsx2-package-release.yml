@@ -51,7 +51,6 @@ jobs:
         with:
           path: ${{ github.workspace }}/build/${{ env.RELEASE_PACKAGE_NAME }}.zip
           archive: false
-
       - name: Create release
         uses: softprops/action-gh-release@v3
         with:

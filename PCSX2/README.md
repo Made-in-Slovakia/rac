@@ -26,7 +26,7 @@ Or follow me directly on Reddit, where I post major updates as well, usually, [u
 
 Download the `pnach` file for your game version (see table bellow) from [cheats folder](cheats/) and save it to the folder `pcsx2\cheats` in your user `Documents` folder. Folder is created automatically by PCSX2.
 
-Alternatively, you can download the [full PCSX2 package](https://github.com/Made-in-Slovakia/rac/releases/download/latest-pcsx2/pcsx2-package.zip), which contains everything including documentation, from [https://github.com/Made-in-Slovakia/rac/releases](release section) of this repository.
+Alternatively, you can download the [full PCSX2 package](https://github.com/Made-in-Slovakia/rac/releases/download/latest-pcsx2/pcsx2-package.zip), which contains everything including documentation, from [release section](https://github.com/Made-in-Slovakia/rac/releases) of this repository.
 
 > Link to releases [https://github.com/Made-in-Slovakia/rac/releases](https://github.com/Made-in-Slovakia/rac/releases)
 

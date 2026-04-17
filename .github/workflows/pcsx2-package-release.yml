@@ -51,6 +51,11 @@ jobs:
         with:
           path: ${{ github.workspace }}/build/${{ env.RELEASE_PACKAGE_NAME }}.zip
           archive: false
+      - name: Delete previous latest release and tag
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete latest-pcsx2 -y --cleanup-tag
       - name: Create release
         uses: softprops/action-gh-release@v3
         with:

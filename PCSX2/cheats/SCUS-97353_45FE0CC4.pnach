@@ -94,8 +94,8 @@ patch=1,EE,E0020100,extended,201A4E14
 patch=1,EE,101A4E14,extended,00000200
 patch=1,EE,001426A0,extended,00000004
 
-[Cheats\Bomb glove]
-description=Enables unused and fully functional weapon 'Bomb Glove' (v1.0)
+[Cheats\Unused Weapons\Bomb Glove]
+description=Enables functional weapon 'Bomb Glove' (v1.0)
 author=Made in Slovakia
 patch=1,EE,E1010000,extended,00142CAA
 patch=1,EE,00142CAA,extended,00000001
@@ -103,8 +103,8 @@ patch=1,EE,E1010000,extended,00142A78
 patch=1,EE,00142A78,extended,00000028
 patch=1,EE,001D4C70,extended,000000A2
 
-[Cheats\Sheepinator]
-description=Enables unused and not functional weapon 'Sheepinator' (v1.0)
+[Cheats\Unused Weapons\Sheepinator]
+description=Enables not functional weapon 'Sheepinator' (v1.0)
 author=Made in Slovakia
 patch=1,EE,E1010000,extended,00142820
 patch=1,EE,10142820,extended,0000EFFF

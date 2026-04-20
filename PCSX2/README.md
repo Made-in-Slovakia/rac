@@ -47,7 +47,7 @@ Download the `pnach` file for your game version (see table bellow) from [cheats 
 
 Patches can be enabled/disabled from the `Cheats` page of the game properties window, and will only be applied if the `Enable Cheats` setting is enabled. This setting can be enabled globally from the `Emulation` page of the settings window, or on a per-game basis from the `Cheats` page of the game properties window (recommended).
 
-![How to enable cheats for a specific game](resources/pcsx2/how-to-enable-cheats.jpg "How to enable cheats for a specific game")
+![How to enable cheats for a specific game](resources/pcsx2/how-to-enable-cheats.jpg)
 
 ### How to update
 
@@ -97,13 +97,13 @@ A collection of patches and mods related to Ratchet's boots.
 2. For `Carbonox Armor`, it will display gadget boots if equipped.
 3. For skins, it will display gadget boots if equipped.
 
-![Armor boots fix](resources/screenshots/rac2-armor-boots-fix.jpg "Armor boots fix")
+![Armor boots fix](resources/screenshots/rac2-armor-boots-fix.jpg)
 
 #### Helmet for skins
 
 While Ratchet uses skin, he will wear a helmet and O2 mask under water or in space.
 
-![Helmet for skins](resources/screenshots/rac2-helmet-for-skins.jpg "Helmet for skins")
+![Helmet for skins](resources/screenshots/rac2-helmet-for-skins.jpg)
 
 #### Ratchet does not need helmet
 
@@ -117,25 +117,25 @@ Mod replaces `Commando Suit` and `Snow Dude` (a.k.a. Snowman) skin (avaiable in 
 
 > **Warning**, this mod will mark the `That's impossible!` skill point as earned.
 
-![Old School Ratchet](resources/screenshots/rac2-old-school-ratchet-1.jpg "Old School Ratchet")
+![Old School Ratchet](resources/screenshots/rac2-old-school-ratchet-1.jpg)
 
 **Installation:** In addition to `pnach` file, download files in `textures` folder and save them to the folder `pcsx2\textures` in your user `Documents` folder. It schould be already created by PCSX2. Then enable PCSX2 feature `Texture replacement` for Ratchet & Clank 2 game.
 
-![How to enable texture replacement for a specific game](resources/pcsx2/how-to-enable-texture-replacement.jpg "How to enable texture replacement for a specific game")
+![How to enable texture replacement for a specific game](resources/pcsx2/how-to-enable-texture-replacement.jpg)
 
 This mod works well with `Armor boots fix`.
 
-![Old School Ratchet and Armor boots fix](resources/screenshots/rac2-old-school-ratchet-2.jpg "Old School Ratchet and Armor boots fix")
+![Old School Ratchet and Armor boots fix](resources/screenshots/rac2-old-school-ratchet-2.jpg)
 
 #### Wildfire Boots
 
-Enables unused and functional weapon `Wildfire Boots`. The weapon is force equipped in slot 1 in quick select wheel (does not have an icon). More info about unused weapons on [The Cutting Room Floor](https://tcrf.net/Ratchet_%26_Clank:_Going_Commando#Unused_Weapons) website.
+Enables unused and functional weapon `Wildfire Boots`. The weapon is force equipped in slot 1 in quick select wheel. Weapon does not have an icon, which makes it difficult to select. More info about unused weapons on [The Cutting Room Floor](https://tcrf.net/Ratchet_%26_Clank:_Going_Commando#Unused_Weapons) website.
 
 ``Because the weapon is experimental, it does not have animation and it is only single boot.``
 
 #### Mine Launcher
 
-Enables unused and functional weapon `Mine Launcher`. The weapon is force equipped in slot 2 in quick select wheel (does not have an icon). More info about unused weapons on [The Cutting Room Floor](https://tcrf.net/Ratchet_%26_Clank:_Going_Commando#Unused_Weapons) website.
+Enables unused and functional weapon `Mine Launcher`. The weapon is force equipped in slot 2 in quick select wheel. Weapon does not have an icon, which makes it difficult to select. More info about unused weapons on [The Cutting Room Floor](https://tcrf.net/Ratchet_%26_Clank:_Going_Commando#Unused_Weapons) website.
 
 ``Because the weapon is experimental, it has no textures.``
 
@@ -146,13 +146,13 @@ Enables unused and functional weapon `Mine Launcher`. The weapon is force equipp
 A collection of patches and mods related to Ratchet's boots.
 
 1. Game contains a bug that causes the default boots are displayed instead of the boots for equipped armor. The bug appears after using Gravity or Charge Boots for the first time. This patch fixes that.<br />
-![Armor boots fix](resources/screenshots/rac3-armor-boots-fix.jpg "Armor boots fix")
+![Armor boots fix](resources/screenshots/rac3-armor-boots-fix.jpg)
 
 2. For skins `Old School Ratchet` and `Tuxedo Ratchet`, it will display gadget boots if equipped.<br />
-![Boots for 'Old School Ratchet'](resources/screenshots/rac3-boots-for-old-school-ratchet.jpg "Boots for 'Old School Ratchet'")<br />
+![Boots for 'Old School Ratchet'](resources/screenshots/rac3-boots-for-old-school-ratchet.jpg)<br />
 
 3. For `Infernox Armor`, it will display gadget boots if equipped.<br />
-![Boots for Infernox Armor](resources/screenshots/rac3-boots-for-infernox-armor.jpg "Boots for Infernox Armor")
+![Boots for Infernox Armor](resources/screenshots/rac3-boots-for-infernox-armor.jpg)
 
 4. Hides gadget boots when Ratchet is in the water or under water.
 
@@ -160,7 +160,7 @@ A collection of patches and mods related to Ratchet's boots.
 
 While Ratchet uses `Old School Ratchet` or `Tuxedo Ratchet` skin, he will wear a helmet and O2 mask under water.
 
-![Helmet for skins](resources/screenshots/rac3-helmet-for-skins.jpg "Helmet for skins")
+![Helmet for skins](resources/screenshots/rac3-helmet-for-skins.jpg)
 
 #### Ratchet does not need helmet
 
@@ -170,7 +170,7 @@ Removes Ratchet's helmet when he is wearing armor, except when he is under water
 
 Gives Ratchet's OmniWrench a flaming effect.
 
-![Flaming OmniWrench](resources/screenshots/rac3-flaming-omniwrench.jpg "Flaming OmniWrench")
+![Flaming OmniWrench](resources/screenshots/rac3-flaming-omniwrench.jpg)
 
 #### Old School Ratchet
 

@@ -76,13 +76,13 @@ patch=2,EE,001A7A68,extended,00000001
 dpatch=0,4,1,0,1000000A,4,24100008,8,3C02001A,C,90427A53,4,24100000
 
 [Cheats\Unused Weapons\Wildfire Boots]
-description=Enables partially functional weapon 'Wildfire Boots' (v1.0)
+description=Enables partially functional weapon 'Wildfire Boots' (v1.1)
 author=Made in Slovakia
-patch=1,EE,001A73B8,extended,00000022
+patch=1,EE,001A73B8,extended,00000023
 
 [Cheats\Unused Weapons\Mine Launcher]
-description=Enables functional but untextured weapon 'Mine Launcher' (v1.0)
+description=Enables functional but untextured weapon 'Mine Launcher' (v1.1)
 author=Made in Slovakia
 patch=1,EE,E1010000,extended,00139710
 patch=1,EE,00139710,extended,00000032
-patch=1,EE,001A73BC,extended,00000023
+patch=1,EE,001A73BC,extended,00000022

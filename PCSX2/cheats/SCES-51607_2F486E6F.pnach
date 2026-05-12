@@ -86,3 +86,13 @@ author=Made in Slovakia
 patch=1,EE,E1010000,extended,00139790
 patch=1,EE,00139790,extended,00000032
 patch=1,EE,001A743C,extended,00000022
+
+[Cheats\Ship\Paint job\Default]
+description=Standard paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7B7A,extended,00000000
+
+[Cheats\Ship\Paint job\Hooked on Onyx]
+description=Black with red stripes, unused content (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7B7A,extended,00000011

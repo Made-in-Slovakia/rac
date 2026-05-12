@@ -139,6 +139,12 @@ Enables unused and functional weapon `Mine Launcher`. The weapon is force equipp
 
 ``Because the weapon is experimental, it has no textures.``
 
+#### Hooked on Onyx (ship paint job)
+
+`Hooked on Onyx` is an unused skin for Ratchet's ship, later used in R&C3. After you activate the patch, it is necessary to change the level to load the skin. After activation, the patch can be disabled and the skin will remain equipped. Use a different skin to deactivate it.
+
+![Hooked on Onyx](resources/screenshots/rac2-hooked-on-onyx.jpg)
+
 ### Ratchet & Clank 3 (Up Your Arsenal)
 
 #### Armor boots fix
@@ -168,7 +174,7 @@ Removes Ratchet's helmet when he is wearing armor, except when he is under water
 
 #### Flaming OmniWrench
 
-Gives Ratchet's OmniWrench a flaming effect.
+Gives Ratchet's OmniWrench a flaming effect from Inferno mode.
 
 ![Flaming OmniWrench](resources/screenshots/rac3-flaming-omniwrench.jpg)
 
@@ -199,6 +205,8 @@ Enables not functional weapon `Sheepinator` with full ammo (61439). The weapon i
  - R&C2,R&C3: `Helmet for skins` with `Tuxedo Ratchet` skin - Ratchet's sunglasses are clipping through his helmet.
  - R&C3: `Old School Ratchet`, `Inferno mode` - the way the game loads Ratchet's model will cause the correct skin to not appear immediately. Ratchet's skin is reloaded when traveling between planets or when the player cycles through skins (without the need to activate any skin).
  - All: Patches that use dynamic patches, which are PCSX2 exclusive feature, can not be converted to cheat codes for a real hardware.
+ - All: Patches that unlocks something (unsused weapons, ship paint job, etc.) are recommended to be disabled after activation to avoid any problems.
+ - All: Patches are mainly tested in-game. Active patches may cause unexpected problems in the main menu. In case of any problems, it is recommended to disable all patches and enable them only after the level is fully loaded.
 
 ## Credits
 

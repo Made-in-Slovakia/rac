@@ -12,7 +12,7 @@ My creations for [PCSX2](https://pcsx2.net) emulator.
   * [Ratchet & Clank](#ratchet--clank)
   * [Ratchet & Clank 2 (Going Commando)](#ratchet--clank-2-going-commando)
   * [Ratchet & Clank 3 (Up Your Arsenal)](#ratchet--clank-3-up-your-arsenal)
-  * [Known bugs and issues](#known-bugs-and-issues)
+* [Known bugs and issues](#known-bugs-and-issues)
 * [Credits](#credits)
 
 ## Disclaimer
@@ -139,6 +139,12 @@ Enables unused and functional weapon `Mine Launcher`. The weapon is force equipp
 
 ``Because the weapon is experimental, it has no textures.``
 
+#### Discounts
+
+Reduces game progress and unlocks prices to 100 bolts each.
+
+``Currently, patch is available only for the NTSC version of the game. PAL version will be available, eventually.``
+
 #### Hooked on Onyx (ship paint job)
 
 `Hooked on Onyx` is an unused skin for Ratchet's ship, later used in R&C3. After you activate the patch, it is necessary to change the level to load the skin. After activation, the patch can be disabled and the skin will remain equipped. Use a different skin to deactivate it.
@@ -200,7 +206,7 @@ Enables functional weapon `Bomb Glove` with full ammo (40) and refills ammo when
 
 Enables not functional weapon `Sheepinator` with full ammo (61439). The weapon is force equipped in slot 6 in quick select wheel. More info about unused weapons on [The Cutting Room Floor](https://tcrf.net/Ratchet_%26_Clank:_Up_Your_Arsenal#Unused_Weapons) website.
 
-### Known bugs and issues
+## Known bugs and issues
 
  - R&C2,R&C3: `Helmet for skins` with `Tuxedo Ratchet` skin - Ratchet's sunglasses are clipping through his helmet.
  - R&C3: `Old School Ratchet`, `Inferno mode` - the way the game loads Ratchet's model will cause the correct skin to not appear immediately. Ratchet's skin is reloaded when traveling between planets or when the player cycles through skins (without the need to activate any skin).

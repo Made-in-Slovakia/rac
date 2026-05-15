@@ -2,8 +2,8 @@ PCSX2 package
 
 # Latest changes
 
-## Patches
+## Cheats
 
 ### Ratchet & Clank 2 (Going Commando)
 
-  * Add 'Hooked on Onyx' ship paint job
+  * Add 'Discounts'

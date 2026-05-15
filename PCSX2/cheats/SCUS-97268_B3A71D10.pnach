@@ -75,6 +75,26 @@ patch=2,EE,E1010000,extended,001A7A68
 patch=2,EE,001A7A68,extended,00000001
 dpatch=0,4,1,0,1000000A,4,24100008,8,3C02001A,C,90427A53,4,24100000
 
+[Cheats\Discounts]
+description=Reduces game progress and unlocks prices to 100 bolts each (v1.0)
+author=Made in Slovakia
+patch=1,EE,E00103E8,extended,00266060
+patch=1,EE,10266060,extended,00000064
+patch=1,EE,E00103E8,extended,0027D790
+patch=1,EE,1027D790,extended,00000064
+patch=1,EE,E0011770,extended,00295954
+patch=1,EE,10295954,extended,00000064
+patch=1,EE,E0012710,extended,0028E364
+patch=1,EE,1028E364,extended,00000064
+patch=1,EE,E0014E20,extended,0027A3A0
+patch=1,EE,1027A3A0,extended,00000064
+patch=1,EE,E0014E20,extended,0029187C
+patch=1,EE,1029187C,extended,00000064
+patch=1,EE,E0019C40,extended,0028C604
+patch=1,EE,1028C604,extended,00000064
+patch=1,EE,E0012710,extended,0026ED10
+patch=1,EE,1026ED10,extended,00000064
+
 [Cheats\Unused Weapons\Wildfire Boots]
 description=Enables partially functional weapon 'Wildfire Boots' (v1.1)
 author=Made in Slovakia
@@ -87,12 +107,12 @@ patch=1,EE,E1010000,extended,00139710
 patch=1,EE,00139710,extended,00000032
 patch=1,EE,001A73BC,extended,00000022
 
-[Cheats\Ship\Paint job\Default]
+[Cheats\Ship\Paint jobs\Blargian Red (Default)]
 description=Standard paint job (v1.0)
 author=Made in Slovakia
 patch=1,EE,001A7AFA,extended,00000000
 
-[Cheats\Ship\Paint job\Hooked on Onyx]
+[Cheats\Ship\Paint jobs\Hooked on Onyx]
 description=Black with red stripes, unused content (v1.0)
 author=Made in Slovakia
 patch=1,EE,001A7AFA,extended,00000011

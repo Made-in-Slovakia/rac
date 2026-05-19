@@ -6,4 +6,7 @@ PCSX2 package
 
 ### Ratchet & Clank 2 (Going Commando)
 
-  * Add 'Discounts'
+  * Add PAL version of 'Discounts'
+  * Add 'Challenge mode' switch
+  * Add more 'Paint jobs'
+  * Rename 'Discounts' to 'Discounts on game progress'

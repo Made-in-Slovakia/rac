@@ -75,25 +75,53 @@ patch=2,EE,E1010000,extended,001A7A68
 patch=2,EE,001A7A68,extended,00000001
 dpatch=0,4,1,0,1000000A,4,24100008,8,3C02001A,C,90427A53,4,24100000
 
-[Cheats\Discounts]
-description=Reduces game progress and unlocks prices to 100 bolts each (v1.0)
+[Cheats\Discounts on game progress]
+description=Sets game progress and unlocks prices to 100 bolts each (v1.1)
 author=Made in Slovakia
+patch=1,EE,E003CAFF,extended,01A4C4D4
+patch=1,EE,E0020000,extended,01A4C4D6
 patch=1,EE,E00103E8,extended,00266060
 patch=1,EE,10266060,extended,00000064
+patch=1,EE,E003CAFF,extended,01C4D4C4
+patch=1,EE,E0020000,extended,01C4D4C6
 patch=1,EE,E00103E8,extended,0027D790
 patch=1,EE,1027D790,extended,00000064
+patch=1,EE,E003CAFF,extended,01C2F2C4
+patch=1,EE,E0020000,extended,01C2F2C6
 patch=1,EE,E0011770,extended,00295954
 patch=1,EE,10295954,extended,00000064
+patch=1,EE,E003CAFF,extended,01C95904
+patch=1,EE,E0020000,extended,01C95906
 patch=1,EE,E0012710,extended,0028E364
 patch=1,EE,1028E364,extended,00000064
+patch=1,EE,E003CAFF,extended,01C09F44
+patch=1,EE,E0020000,extended,01C09F46
 patch=1,EE,E0014E20,extended,0027A3A0
 patch=1,EE,1027A3A0,extended,00000064
+patch=1,EE,E003CAFF,extended,01B16E44
+patch=1,EE,E0020000,extended,01B16E46
 patch=1,EE,E0014E20,extended,0029187C
 patch=1,EE,1029187C,extended,00000064
+patch=1,EE,E003CAFF,extended,01C876B4
+patch=1,EE,E0020000,extended,01C876B6
 patch=1,EE,E0019C40,extended,0028C604
 patch=1,EE,1028C604,extended,00000064
+patch=1,EE,E003CAFF,extended,01C08514
+patch=1,EE,E0020000,extended,01C08516
 patch=1,EE,E0012710,extended,0026ED10
 patch=1,EE,1026ED10,extended,00000064
+
+[Cheats\Challenge mode (ON)]
+description=Enables challenge mode (v1.0)
+author=Made in Slovakia
+patch=1,EE,E0010000,extended,001A7A12
+patch=1,EE,001A7A12,extended,00000001
+
+[Cheats\Challenge mode (OFF)]
+description=Disables challenge mode (v1.0)
+author=Made in Slovakia
+patch=1,EE,E0010001,extended,001A7A12
+patch=1,EE,001A7A12,extended,00000000
 
 [Cheats\Unused Weapons\Wildfire Boots]
 description=Enables partially functional weapon 'Wildfire Boots' (v1.1)
@@ -108,11 +136,91 @@ patch=1,EE,00139710,extended,00000032
 patch=1,EE,001A73BC,extended,00000022
 
 [Cheats\Ship\Paint jobs\Blargian Red (Default)]
-description=Standard paint job (v1.0)
+description=Sets Ratchet's ship paint job (v1.0)
 author=Made in Slovakia
 patch=1,EE,001A7AFA,extended,00000000
 
+[Cheats\Ship\Paint jobs\Orxon Green]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000001
+
+[Cheats\Ship\Paint jobs\Bogon Blue]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000002
+
+[Cheats\Ship\Paint jobs\Insomniac Special]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000003
+
+[Cheats\Ship\Paint jobs\Dark Nebula]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000004
+
+[Cheats\Ship\Paint jobs\Drek's Black Heart]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000005
+
+[Cheats\Ship\Paint jobs\Space Storm]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000006
+
+[Cheats\Ship\Paint jobs\Lunar Eclipse]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000007
+
+[Cheats\Ship\Paint jobs\Plaidtastic]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000008
+
+[Cheats\Ship\Paint jobs\Supernova]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000009
+
+[Cheats\Ship\Paint jobs\Solar Wind]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,0000000A
+
+[Cheats\Ship\Paint jobs\Clowner]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,0000000B
+
+[Cheats\Ship\Paint jobs\Silent Strike]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,0000000C
+
+[Cheats\Ship\Paint jobs\Prepster]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,0000000D
+
+[Cheats\Ship\Paint jobs\Lombax Orange]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,0000000E
+
+[Cheats\Ship\Paint jobs\Neutron Star]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,0000000F
+
+[Cheats\Ship\Paint jobs\Star Traveler]
+description=Sets Ratchet's ship paint job (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AFA,extended,00000010
+
 [Cheats\Ship\Paint jobs\Hooked on Onyx]
-description=Black with red stripes, unused content (v1.0)
+description=Sets Ratchet's ship paint job, unused content (v1.0)
 author=Made in Slovakia
 patch=1,EE,001A7AFA,extended,00000011

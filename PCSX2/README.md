@@ -21,7 +21,7 @@ My creations for [PCSX2](https://pcsx2.net) emulator.
 
 Some of these creations are experimental. They may affect your memory card saves and PCSX2 save states. Do not use them with your standard saves and always use new save or backup your saves before using them.
 
-``User feedback is welcome, especially for the NTSC version.``
+``User feedback is welcome.``
 
 I develop and test with PAL (European) versions of the games. I try to provide NTSC (North America) versions when possible, but they still may have the note `UNTESTED` or `PARTIALLY TESTED`, which means they are not tested thoroughly. User feedback is welcome.
 
@@ -47,6 +47,8 @@ Download the `pnach` file for your game version (see table bellow) from [cheats 
 
 Patches can be enabled/disabled from the `Cheats` page of the game properties window, and will only be applied if the `Enable Cheats` setting is enabled. This setting can be enabled globally from the `Emulation` page of the settings window, or on a per-game basis from the `Cheats` page of the game properties window (recommended).
 
+Patches that unlocks or sets something (unsused weapons, ship paint job, etc.) are recommended to be disabled after activation to avoid any problems. For easier identification, the description of these patches starts with "Sets ..." or "Unlocks ...".
+
 ![How to enable cheats for a specific game](resources/pcsx2/how-to-enable-cheats.jpg)
 
 ### How to update
@@ -70,7 +72,7 @@ Do not use save states when updating mods.
 |SCES-52456|17125698|PAL|Ratchet & Clank 3|Full|
 |SCUS-97268|CE4933D0|NTSC|Ratchet & Clank|Partial|
 |SCUS-97268|38996035|NTSC|Ratchet & Clank - Going Commando|None|
-|SCUS-97268|B3A71D10|NTSC|Ratchet & Clank - Going Commando (Greatest Hits)|Partial|
+|SCUS-97268|B3A71D10|NTSC|Ratchet & Clank - Going Commando (Greatest Hits)|Full|
 |SCUS-97353|45FE0CC4|NTSC|Ratchet & Clank - Up Your Arsenal|Partial|
 
 ### Combining patches
@@ -143,13 +145,17 @@ Enables unused and functional weapon `Mine Launcher`. The weapon is force equipp
 
 Reduces game progress and unlocks prices to 100 bolts each.
 
-``Currently, patch is available only for the NTSC version of the game. PAL version will be available, eventually.``
-
 #### Hooked on Onyx (ship paint job)
 
 `Hooked on Onyx` is an unused skin for Ratchet's ship, later used in R&C3. After you activate the patch, it is necessary to change the level to load the skin. After activation, the patch can be disabled and the skin will remain equipped. Use a different skin to deactivate it.
 
 ![Hooked on Onyx](resources/screenshots/rac2-hooked-on-onyx.jpg)
+
+#### Challenge mode
+
+Enables (or disables) challenge mode with everything that goes with it: bolt multiplier, mega versions of Megacorp weapons and increased damage from enemies.
+
+To take full effect, it is necessary to save the game to a memory card and reload it, or travel to another planet. The patch works like a switch, after activation it writes the value to memory and it is not necessary to keep it enabled and it is recommended to disable it to avoid any problems.
 
 ### Ratchet & Clank 3 (Up Your Arsenal)
 
@@ -210,9 +216,8 @@ Enables not functional weapon `Sheepinator` with full ammo (61439). The weapon i
 
  - R&C2,R&C3: `Helmet for skins` with `Tuxedo Ratchet` skin - Ratchet's sunglasses are clipping through his helmet.
  - R&C3: `Old School Ratchet`, `Inferno mode` - the way the game loads Ratchet's model will cause the correct skin to not appear immediately. Ratchet's skin is reloaded when traveling between planets or when the player cycles through skins (without the need to activate any skin).
- - All: Patches that use dynamic patches, which are PCSX2 exclusive feature, can not be converted to cheat codes for a real hardware.
- - All: Patches that unlocks something (unsused weapons, ship paint job, etc.) are recommended to be disabled after activation to avoid any problems.
- - All: Patches are mainly tested in-game. Active patches may cause unexpected problems in the main menu. In case of any problems, it is recommended to disable all patches and enable them only after the level is fully loaded.
+ - All: Some patches use dynamic patches, which are PCSX2 exclusive feature, and can not be converted to cheat codes for a real hardware.
+ - All: Patches are mainly tested in-game. Some active patches may cause unexpected problems in the main menu. In case of any problems, it is recommended to disable all problematic patches and enable them only after the level is fully loaded.
 
 ## Credits
 

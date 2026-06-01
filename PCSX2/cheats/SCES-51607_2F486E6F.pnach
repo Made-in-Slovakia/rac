@@ -112,24 +112,87 @@ patch=1,EE,E0012710,extended,0026ED90
 patch=1,EE,1026ED90,extended,00000064
 
 [Cheats\Challenge mode (ON)]
-description=Enables challenge mode (v1.0)
+description=Activates challenge mode (v1.0)
 author=Made in Slovakia
 patch=1,EE,E0010000,extended,001A7A92
 patch=1,EE,001A7A92,extended,00000001
 
 [Cheats\Challenge mode (OFF)]
-description=Disables challenge mode (v1.0)
+description=Deactivates challenge mode (v1.0)
 author=Made in Slovakia
 patch=1,EE,E0010001,extended,001A7A92
 patch=1,EE,001A7A92,extended,00000000
 
+[Cheats\Bolts]
+description=Sets bolts to 7,777,777 (v1.0)
+author=Made in Slovakia
+patch=1,EE,201A7A80,extended,0076ADF1
+
+[Cheats\Armors\Commando Suit]
+description=Set it as equiped armor (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AA0,extended,00000000
+
+[Cheats\Armors\Tetrafiber Armor]
+description=Set it as equiped armor (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AA0,extended,00000001
+
+[Cheats\Armors\Duraplate Armor]
+description=Set it as equiped armor (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AA0,extended,00000002
+
+[Cheats\Armors\Electrosteel Armor]
+description=Set it as equiped armor (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AA0,extended,00000003
+
+[Cheats\Armors\Carbonox Armor]
+description=Set it as equiped armor (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7AA0,extended,00000004
+
+[Cheats\Unlocks\All planets]
+description=Unlocks all planets (v1.0)
+author=Made in Slovakia
+patch=1,EE,401399C8,extended,00180001
+patch=1,EE,00000001,extended,00000001
+
+[Cheats\Unlocks\All gadgets]
+description=Unlocks all gadgets (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7B8D,extended,00000001
+patch=1,EE,001A7B82,extended,00000001
+patch=1,EE,001A7B83,extended,00000001
+patch=1,EE,001A7B93,extended,00000001
+patch=1,EE,001A7B94,extended,00000001
+patch=1,EE,001A7BA4,extended,00000001
+patch=1,EE,001A7BA7,extended,00000001
+patch=1,EE,001A7BAE,extended,00000001
+patch=1,EE,001A7BB6,extended,00000001
+patch=1,EE,001A7BB7,extended,00000001
+
+[Cheats\Unlocks\All items]
+description=Unlocks all items (v1.0)
+author=Made in Slovakia
+patch=1,EE,001A7B84,extended,00000001
+patch=1,EE,001A7B85,extended,00000001
+patch=1,EE,001A7B87,extended,00000001
+patch=1,EE,001A7B88,extended,00000001
+patch=1,EE,001A7B95,extended,00000001
+patch=1,EE,001A7BA6,extended,00000001
+patch=1,EE,001A7BB0,extended,00000001
+patch=1,EE,001A7BB2,extended,00000001
+patch=1,EE,001A7BB3,extended,00000001
+
 [Cheats\Unused Weapons\Wildfire Boots]
-description=Enables partially functional weapon 'Wildfire Boots' (v1.0)
+description=Activates partially functional weapon 'Wildfire Boots' (v1.1)
 author=Made in Slovakia
 patch=1,EE,001A7438,extended,00000023
 
 [Cheats\Unused Weapons\Mine Launcher]
-description=Enables functional but untextured weapon 'Mine Launcher' (v1.0)
+description=Activates functional but untextured weapon 'Mine Launcher' (v1.1)
 author=Made in Slovakia
 patch=1,EE,E1010000,extended,00139790
 patch=1,EE,00139790,extended,00000032

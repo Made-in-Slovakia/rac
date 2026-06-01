@@ -141,7 +141,7 @@ Enables unused and functional weapon `Mine Launcher`. The weapon is force equipp
 
 ``Because the weapon is experimental, it has no textures.``
 
-#### Discounts
+#### Discounts on game progress
 
 Reduces game progress and unlocks prices to 100 bolts each.
 
@@ -150,6 +150,18 @@ Reduces game progress and unlocks prices to 100 bolts each.
 `Hooked on Onyx` is an unused skin for Ratchet's ship, later used in R&C3. After you activate the patch, it is necessary to change the level to load the skin. After activation, the patch can be disabled and the skin will remain equipped. Use a different skin to deactivate it.
 
 ![Hooked on Onyx](resources/screenshots/rac2-hooked-on-onyx.jpg)
+
+#### Cheats
+
+A few minor cheats, which include:
+
+ - `Bolts` - sets bolts to 7,777,777 
+ - `Armor` - changes equiped armor, it is necessary to change the level to load skin of the armor
+ - `Unlocks all planets`
+ - `Unlocks all gadgets`
+ - `Unlocks all items`
+ - `Paint jobs` - changes Ratchet's ship paint job 
+ - and more
 
 #### Challenge mode
 

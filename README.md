@@ -2,6 +2,10 @@
 
 This repository contains my Ratchet & Clank related stuff.
 
+## Docs
+
+Mixture of my documents and information about Ratchet & Clank games.
+
 ## PCSX2
 
 My creations for [PCSX2](https://pcsx2.net) emulator. Patches, mods and cheats for Ratchet & Clank games.

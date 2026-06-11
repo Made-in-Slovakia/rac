@@ -6,4 +6,5 @@ PCSX2 package
 
 ### Ratchet & Clank 2 (Going Commando)
 
-  * Add few minor cheats
+  * Add `Cheats\Planets\Damosel\Hypnomatic parts`
+  * Update conditions in `Discounts on game progress`

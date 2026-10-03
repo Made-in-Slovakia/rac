@@ -1,6 +1,6 @@
 gametitle=Ratchet & Clank 3 (PAL) [SCES-52456]
 
-[Patches\Armor boots fix]
+[Mods\Armor boots fix]
 description=A collection of patches and mods related to Ratchet's boots (v2.1)
 author=Made in Slovakia
 dpatch=0,8,8,0,24030004,4,10830005,8,0000882D,10,00000000,14,18400002,18,00000000,1C,24110001,20,1220000D,0,00000000,4,00000000,8,3C030010,C,8071FFD0,10,00000000,14,00000000,18,00000000,1C,00000000

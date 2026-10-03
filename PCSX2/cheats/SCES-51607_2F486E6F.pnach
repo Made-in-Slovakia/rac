@@ -75,6 +75,14 @@ patch=2,EE,E1010000,extended,001A7AE8
 patch=2,EE,001A7AE8,extended,00000001
 dpatch=0,4,1,0,1000000A,4,24100008,8,3C02001A,C,90427AD3,4,24100000
 
+[Patches\Y.E.T.I. counter fix]
+description=Mitigates problem of Y.E.T.I. counter on planet Grelbin (v1.0)
+author=Made in Slovakia
+patch=1,EE,E003CAFF,extended,002E335C
+patch=1,EE,E002FF00,extended,301B1D30
+patch=1,EE,E001FFFF,extended,001B1D32
+patch=1,EE,201B1D30,extended,00000000
+
 [Cheats\Discounts on game progress]
 description=Sets game progress and unlocks prices to 100 bolts each (v1.2)
 author=Made in Slovakia

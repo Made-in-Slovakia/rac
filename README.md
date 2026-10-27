@@ -4,11 +4,15 @@ This repository contains my Ratchet & Clank related stuff.
 
 ## Docs
 
-Mixture of my documents and information about Ratchet & Clank games.
+Mixture of my [documents and information](docs/README.md) about Ratchet & Clank games.
 
 ## PCSX2
 
-My creations for [PCSX2](https://pcsx2.net) emulator. Patches, mods and cheats for Ratchet & Clank games.
+[Patches, mods and cheats](PCSX2/README.md) for Ratchet & Clank games running on [PCSX2 emulator](https://pcsx2.net).
+
+## AI disclaimer
+
+AI was not used to create the content of this repository. Everything is handwritten by a human.
 
 ## NO AI TRAINING
 

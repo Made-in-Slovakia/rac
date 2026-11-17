@@ -64,16 +64,15 @@ Do not use save states when updating mods.
 
 ### Supported games
 
-|Serial    |CRC  |Region|Game                   |Level of support|
-|----------|-----|------|-----------------------|----------------|
-|SCES-51607|        |PAL|Ratchet & Clank|None|
-|SCES-51607|76F724A3|PAL|Ratchet & Clank (Platinum)|Full|
-|SCES-51607|2F486E6F|PAL|Ratchet & Clank 2|Full|
-|SCES-52456|17125698|PAL|Ratchet & Clank 3|Full|
-|SCUS-97268|CE4933D0|NTSC|Ratchet & Clank|Partial|
-|SCUS-97268|38996035|NTSC|Ratchet & Clank - Going Commando|None|
-|SCUS-97268|B3A71D10|NTSC|Ratchet & Clank - Going Commando (Greatest Hits)|Full|
-|SCUS-97353|45FE0CC4|NTSC|Ratchet & Clank - Up Your Arsenal|Partial|
+|Game                             |Region|Version|Serial    |CRC     |Level of support|
+|---------------------------------|------|-------|----------|--------|----------------|
+|Ratchet & Clank                  |PAL   |2.00   |SCES-50916|76F724A3|Full            |
+|Ratchet & Clank 2                |PAL   |1.00   |SCES-51607|2F486E6F|Full            |
+|Ratchet & Clank 3                |PAL   |1.00   |SCES-52456|17125698|Full            |
+|Ratchet & Clank                  |NTSC  |1.00   |SCUS-97268|CE4933D0|Partial         |
+|Ratchet & Clank - Going Commando |NTSC  |1.01   |SCUS-97268|38996035|None            |
+|Ratchet & Clank - Going Commando |NTSC  |2.00   |SCUS-97268|B3A71D10|Full            |
+|Ratchet & Clank - Up Your Arsenal|NTSC  |1.00   |SCUS-97353|45FE0CC4|Partial         |
 
 ### Combining patches
 
